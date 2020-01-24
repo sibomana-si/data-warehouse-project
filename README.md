@@ -130,7 +130,7 @@ The ETL pipeline was designed in a modular way and consists of three modules:
 ##### Usage
 1. creates the staging and analytics tables
 
-  `$ python create_tables.py`
+	`$ python create_tables.py`
 	
 2. loads the song and log data into the staging tables, and finally inserts the data into the analytics tables
 
